@@ -1,0 +1,93 @@
+import React from 'react';
+import './QuickSearch.css';
+
+const QuickSearch = () =>{
+    return(
+        <div id="quicksearch">
+          <div id="quickheading">
+            <p>Quick Search</p>
+          </div>
+          <div id="quicksubheading">
+            <p>Discover Restaurants by type of meal</p>
+          </div>
+
+          <div id="maintilecontainer">
+            <a href="Breakfast/breakfast.html">
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                  <img src="https://i.ibb.co/K7fYYBj/breakfast.jpg" alt="breakfast" />
+                </div>
+                <div class="tilecomponent2">
+                  <div class="componentheading">Breakfast</div>
+                  <div class="componentsubheading">
+                    Start Your Day With Our Best Exclusive Breakfast.
+                  </div>
+                </div>
+            </div>
+          </a>
+      
+            <div class="tilecontainer">
+              <div class="tilecomponent1">
+                <img src="https://i.ibb.co/n8dJFS5/Lunch.jpg" alt="LunchImg" />
+              </div>
+              <div class="tilecomponent2">
+                <div class="componentheading">Lunch</div>
+                <div class="componentsubheading">
+                  Make your lunch hour best with our exclusive offer.
+                </div>
+              </div>
+            </div>
+      
+            <div class="tilecontainer">
+              <div class="tilecomponent1">
+                <img src="https://i.ibb.co/prsWzj4/Snacks.jpg" alt="SnacksImg" />
+              </div>
+              <div class="tilecomponent2">
+                <div class="componentheading">Snacks</div>
+                <div class="componentsubheading">
+                  Muching with our best offer.
+                </div>
+              </div>
+            </div>
+      
+            <div class="tilecontainer">
+              <div class="tilecomponent1">
+                <img src="https://i.ibb.co/C5Wv04x/Dinner1.jpg" alt="DinnerImg" />
+              </div>
+              <div class="tilecomponent2">
+                <div class="componentheading">Dinner</div>
+                <div class="componentsubheading">
+                  End you day with our best offer.
+                </div>
+              </div>
+            </div>
+      
+            <div class="tilecontainer">
+              <div class="tilecomponent1">
+                <img src="https://i.ibb.co/BLCz1wn/Drinks3.jpg" alt="DrinksImg" />
+              </div>
+              <div class="tilecomponent2">
+                <div class="componentheading">Drinks</div>
+                <div class="componentsubheading">
+                  Party Hard With Our Best Offers.
+                </div>
+              </div>
+            </div>
+      
+            <div class="tilecontainer">
+              <div class="tilecomponent1">
+                <img src="https://i.ibb.co/Bs3VM7y/nightlife.png" alt="NightLifeImg" />
+              </div>
+              <div class="tilecomponent2">
+                <div class="componentheading">Night Life</div>
+                <div class="componentsubheading">
+                  Enjoy Your Night Party With Our Best Offers.
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    )
+}
+
+export default QuickSearch;
